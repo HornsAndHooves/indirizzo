@@ -1,3 +1,10 @@
+### Synup's fork
+
+* Changes name to lower-case in gemspec
+* Removes `Indirizzo.gemspec` and adds `indirizzo.gemspec` (because git doesn't detect case changes)
+
+--------
+
 # Introduction
 
 Indirizzo is a simple extraction of the Address class (along with the numbers
