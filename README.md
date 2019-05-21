@@ -21,10 +21,18 @@ constraints of needing a SQLite3 database for proper geocoding added overhead to
 my simple needs. I simply need to parse addresses that may, or may not, be
 "complete" or "well-formed".  Thus Indirizzo was born.
 
+## Installation
+In your Gemfile, add:
+
+```
+gem "HornsAndHooves-indirizzo", require: "indirizzo"
+```
+
+
 ## Usage
 
 ```ruby
-require 'Indirizzo'
+require 'indirizzo'
 Indirizzo::Address.new("some address")
 ```
 
